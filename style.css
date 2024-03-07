@@ -1,0 +1,109 @@
+html body {
+  background-color: rgb(200, 200, 200);
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+}
+
+.generate-summary-button {
+  background-image: linear-gradient(to right, #1d82ff 0%, rgb(131, 213, 248)  51%, #1f75ff  100%);
+  margin: 10px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.generate-summary-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.glass-part {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+.background{
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+}
+.background .shape{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+.shape:first-child{
+  background: linear-gradient(
+      #9b22ea,
+      #bf23f6
+  );
+  left: -80px;
+  top: -50px;
+}
+.shape:last-child{
+  background: linear-gradient(
+      to right,
+      #ff512f,
+      #f09819
+  );
+  right: -100px;
+  bottom: 50px;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.part {
+  height: 440px;
+  width: 550px;
+  background-color: #ffffff12;
+  position: relative;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 50px 35px;
+  margin: 2px; /* Adjust the margin as needed */
+}
+
+.part * {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+.part h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.part h3 span {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #e5e5e5;
+}
