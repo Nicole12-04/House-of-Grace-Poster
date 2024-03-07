@@ -1,9 +1,9 @@
 html body {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(255, 255, 255);
 }
 
 .form-container {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #dcdcdc;
@@ -76,9 +76,9 @@ html body {
 }
 
 .part {
-  height: 440px;
-  width: 550px;
-  background-color: #ffffff12;
+  height: 430px;
+  width: 530px;
+  background-color: #ffffff16;
   position: relative;
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -90,7 +90,7 @@ html body {
 
 .part * {
   font-family: 'Poppins', sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
   outline: none;
   border: none;
 }
